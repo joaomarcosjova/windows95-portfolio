@@ -115,3 +115,7 @@ We have plans to make this project even more realistic and nostalgic by adding t
 
 
 Thank you for checking out the Windows 95 Portfolio! We hope you enjoy using it and exploring its nostalgic design and functionalities. If you have any questions or feedback, please feel free to reach out.
+
+##special thanks 
+
+to - https://win98icons.alexmeub.com/
