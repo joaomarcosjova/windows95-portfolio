@@ -34,5 +34,12 @@ export const Menu = [
         headerIconSize: " h-[19px] w-[17px]",
         startIconSize: "w-[22px] h-[20px]"
     },
+    {
+        name: "Book a call",
+        path: "/assets/calendar.png",
+        deskIconSize: "w-[42px] h-[42px]",
+        headerIconSize: " h-[19px] w-[17px]",
+        startIconSize: "w-[22px] h-[20px]"
+    },
     
 ];
