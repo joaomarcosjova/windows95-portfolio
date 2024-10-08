@@ -15,10 +15,10 @@ const Desktop = () => {
           </div>
           <AppScreen />
           <h1 className=" text-5xl cursor-default selection:bg-current selection:text-current">
-            Renishkar
+            Marcos Jova
           </h1>
           <h2 className=" text-3xl text-white cursor-default selection:bg-current selection:text-current">
-            Full Stack Developer
+            Security Engineer (Hacker)
           </h2>
         </div>
       </div>

@@ -80,7 +80,7 @@ const Mail = ({ isMaximized }) => {
             id="receiver"
             type="text"
             readOnly
-            value={"renishkar47@gmail.com"}
+            value={"marcosjova3@gmail.com"}
             className=" border-none shadow-none bg-transparent outline-none p-[5px] "
           />
         </div>

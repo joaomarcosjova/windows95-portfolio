@@ -4,6 +4,7 @@ import { Menu } from "../content/menu";
 import AppContext from "../context/AppContext";
 import About from "./Apps/About";
 import Mail from "./Apps/Mail";
+// import Certificates from "./Apps/Certificates";
 import Projects from "./Apps/Projects";
 
 const AppScreen = () => {
@@ -33,6 +34,17 @@ const AppScreen = () => {
           <Projects isMaximized={state.Projects.fullscreen} />
         </AppScreenFrame>
       )}
+      {/* {state.Certificates.open && (
+        <AppScreenFrame
+          appInfo={Menu[1]}
+          className=""
+          isActive={state.Certificates.top}
+          isMaximized={state.Certificates.fullscreen}
+          isMinimized={state.Certificates.minimize}
+        >
+          <Certificates isMaximized={state.Certificates.fullscreen} />
+        </AppScreenFrame>
+      )} */}
       {state.Mail.open && (
         <AppScreenFrame
           appInfo={Menu[2]}

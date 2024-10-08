@@ -1,36 +1,37 @@
-import { html, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap } from "../content/badges";
+import { html, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap, typescript } from "../content/badges";
 export const projects = [
     {
-        name: "Tees For You",
-        imagePath: "/assets/projectSnaps/project1a.jpg",
-        description: "An E-Commerce website with modern UI to buy T-Shirts. This is my first complete website project.\n (This isn't designed for mobile view yet)",
-        githubLink: "https://github.com/renish47/TeesForYou-MiniProject1",
-        websiteLink: "https://teesforyou.netlify.app/",
+        name: "Autofill-phishing",
+        imagePath: "/assets/projectSnaps/autofill-phishing.gif",
+        description: "One of my notable projects involves creating an autofill-phishing simulation by exploiting browser-saved cookies. The project demonstrates how malicious actors can manipulate browser autofill functions to extract sensitive information from unsuspecting users.",
+        githubLink: "https://github.com/joaomarcosjova/autofill-phishing",
+        websiteLink: "https://autofill-phishing.netlify.app/",
+        techStack: [html, bootstrap, js]
+    },
+    {
+        name: "Parrot Learn",
+        imagePath: "/assets/projectSnaps/parrot-learn.png",
+        description: "Parrot Learn is an open-source Progressive Web App (PWA) designed to help users learn new words in multiple languages.",
+        githubLink: "https://github.com/joaomarcosjova/parrot-learn",
+        websiteLink: "https://parrotlearn.netlify.app/",
         techStack: [html, css, js]
     },
     {
-        name: "Book My Doc",
-        imagePath: "/assets/projectSnaps/project2a.jpg",
-        description: "A Doctor appointment booking app which provides functionalities to book and manage appointments. This is my first Full-Stack project.",
-        githubLink: "https://github.com/renish47/BookMyDoc",
-        websiteLink: "https://bookmydoc.netlify.app/",
-        techStack: [react, bootstrap, expressJs, mongoDb]
+        name: "Ufocus",
+        imagePath: "/assets/projectSnaps/ufocus.png",
+        description: "UFocus is an engaging two-handed focus and typing game designed to challenge users' coordination and concentration. The objective of the game is to have the user simultaneously press two different keys—one with each hand—as displayed on the screen. ",
+        githubLink: "https://github.com/joaomarcosjova/Ufocus",
+        websiteLink: "https://ufocus.netlify.app/",
+        techStack: [react, tailwindCss, nodeJs, typescript]
     },
     {
-        name: "Portfolio",
-        imagePath: "/assets/projectSnaps/project3a.jpg",
-        description: "My web portfolio whose design is inspired based on popular Windows-95 operating system's look.",
-        githubLink: "https://github.com/renish47/portfolio",
-        websiteLink: "https://renishkar-portfolio.netlify.app/",
-        techStack: [react, tailwindCss]
+        name: "Spotify Clone",
+        imagePath: "/assets/projectSnaps/spotify-clone.png",
+        description: "A Spotify Clone is a web or mobile application built to mimic the functionality and design of the popular music streaming platform, Spotify.",
+        githubLink: "https://github.com/joaomarcosjova/",
+        websiteLink: "#!",
+        techStack: [react, expressJs, mongoDb, nodeJs, tailwindCss]
     },
-    {
-        name: "url-sm",
-        imagePath: "/assets/projectSnaps/project4a.jpg",
-        description: "A URL shortening website, which also implements the flow of processes like signin, signup, forget password along with OTP verification. This is one of my Mini project",
-        githubLink: "https://github.com/renish47/url-sm",
-        websiteLink: "https://url-sm.netlify.app/",
-        techStack: [react, tailwindCss, expressJs, mongoDb]
-    },
+    
 
 ]
