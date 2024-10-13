@@ -4,7 +4,9 @@ import { Menu } from "../content/menu";
 import AppContext from "../context/AppContext";
 import About from "./Apps/About";
 import Mail from "./Apps/Mail";
+import Certificates from "./Apps/Certificates";
 import Projects from "./Apps/Projects";
+import Cv from "./Apps/Cv";
 
 const AppScreen = () => {
   const { state } = useContext(AppContext);
@@ -42,6 +44,28 @@ const AppScreen = () => {
           isMinimized={state.Mail.minimize}
         >
           <Mail isMaximized={state.Mail.fullscreen} />
+        </AppScreenFrame>
+      )}
+      {state.Certificates.open && (
+        <AppScreenFrame
+          appInfo={Menu[3]}
+          className=""
+          isActive={state.Certificates.top}
+          isMaximized={state.Certificates.fullscreen}
+          isMinimized={state.Certificates.minimize}
+        >
+          <Certificates isMaximized={state.Certificates.fullscreen} />
+        </AppScreenFrame>
+      )}
+      {state.Cv.open && (
+        <AppScreenFrame
+          appInfo={Menu[4]}
+          className=""
+          isActive={state.Cv.top}
+          isMaximized={state.Cv.fullscreen}
+          isMinimized={state.Cv.minimize}
+        >
+          <Cv isMaximized={state.Cv.fullscreen} />
         </AppScreenFrame>
       )}
     </>

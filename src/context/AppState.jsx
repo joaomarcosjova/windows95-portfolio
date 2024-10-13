@@ -31,6 +31,20 @@ const initialState = {
     top: false,
     fullscreen: false,
   },
+  Certificates: {
+    open: false,
+    minimize: false,
+    closed: true,
+    top: false,
+    fullscreen: false,
+  },
+  Cv: {
+    open: false,
+    minimize: false,
+    closed: true,
+    top: false,
+    fullscreen: false,
+  },
   previouslyActiveApp: "",
   taskbarAppStack: [],
 };

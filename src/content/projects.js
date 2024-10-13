@@ -1,13 +1,5 @@
-import { html, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap, typescript } from "../content/badges";
+import { html, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap, typescript, nextJs } from "../content/badges";
 export const projects = [
-    {
-        name: "Autofill-phishing",
-        imagePath: "/assets/projectSnaps/autofill-phishing.gif",
-        description: "One of my notable projects involves creating an autofill-phishing simulation by exploiting browser-saved cookies. The project demonstrates how malicious actors can manipulate browser autofill functions to extract sensitive information from unsuspecting users.",
-        githubLink: "https://github.com/joaomarcosjova/autofill-phishing",
-        websiteLink: "https://autofill-phishing.netlify.app/",
-        techStack: [html, bootstrap, js]
-    },
     {
         name: "Parrot Learn",
         imagePath: "/assets/projectSnaps/parrot-learn.png",
@@ -16,6 +8,23 @@ export const projects = [
         websiteLink: "https://parrotlearn.netlify.app/",
         techStack: [html, css, js]
     },
+    {
+        name: "Tecnario",
+        imagePath: "/assets/projectSnaps/tecnario.png",
+        description: "Tecnário is an online dictionary in Portuguese that makes technological terms more accessible and easier to understand.",
+        githubLink: "https://github.com/joaomarcosjova/tecnario",
+        websiteLink: "https://tecnario.netlify.app/",
+        techStack: [typescript, tailwindCss, nextJs]
+    },
+    {
+        name: "Autofill-phishing",
+        imagePath: "/assets/projectSnaps/autofill-phishing.gif",
+        description: "This project demonstrates how malicious actors can manipulate browser autofill functions to extract sensitive information from unsuspecting users.",
+        githubLink: "https://github.com/joaomarcosjova/autofill-phishing",
+        websiteLink: "https://autofill-phishing.netlify.app/",
+        techStack: [html, bootstrap, js]
+    },
+    
     {
         name: "Ufocus",
         imagePath: "/assets/projectSnaps/ufocus.png",

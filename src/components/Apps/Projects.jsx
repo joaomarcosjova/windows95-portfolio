@@ -57,9 +57,21 @@ const Projects = ({ isMaximized }) => {
               </div>
             </div>
           </div>
+          
         );
       })}
+       <div className=" flex justify-center">
+          <a
+            target="_blank"
+            href="https://github.com/joaomarcosjova?tab=repositories"
+            download
+            className=" flex mt-10 w-fit justify-center items-center gap-[5px] p-[5px] text-sm border-t-[#dfdfdf]  border-e-[grey]  border-b-[grey] border-s-[#dfdfdf] border-[2px] hover:border-e-[#dfdfdf]  hover:border-s-[grey]  hover:border-t-[grey] hover:border-b-[#dfdfdf] hover:bg-[#b5b5b5] transition-all "
+          >
+           Expore More Projects
+          </a>
+        </div>
     </div>
+    
   );
 };
 

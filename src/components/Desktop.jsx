@@ -18,7 +18,7 @@ const Desktop = () => {
             Marcos Jova
           </h1>
           <h2 className=" text-3xl text-white cursor-default selection:bg-current selection:text-current">
-            Security Engineer (Hacker)
+            Software Engineering & Cybersecurity
           </h2>
         </div>
       </div>

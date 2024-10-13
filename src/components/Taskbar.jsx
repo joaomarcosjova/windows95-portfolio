@@ -44,6 +44,28 @@ const Taskbar = () => {
         minimizeApp={() => minimizeApp(Menu[2].name)}
       />
     );
+  state.Certificates.open &&
+    taskbarAppStack.push(
+      <TaskbarAppBtn
+        key={taskbarAppStack.length}
+        appName={Menu[3].name}
+        iconSrc={Menu[3].path}
+        isActive={state.Certificates.top && !state.Certificates.minimize}
+        activeHandler={() => activeApp(Menu[3].name)}
+        minimizeApp={() => minimizeApp(Menu[3].name)}
+      />
+    );
+    state.Cv.open &&
+    taskbarAppStack.push(
+      <TaskbarAppBtn
+        key={taskbarAppStack.length}
+        appName={Menu[4].name}
+        iconSrc={Menu[4].path}
+        isActive={state.Cv.top && !state.Cv.minimize}
+        activeHandler={() => activeApp(Menu[4].name)}
+        minimizeApp={() => minimizeApp(Menu[4].name)}
+      />
+    );
   return (
     <>
       {isStartClicked && <StartMenu setCloseStartMenu={setIsStartClicked} />}
