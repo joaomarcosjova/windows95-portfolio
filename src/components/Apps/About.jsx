@@ -26,13 +26,13 @@ const About = ({ isMaximized }) => {
           >
             Marcos Jova
           </h2>
-          <h2
+          {/* <h2
             className={` font-extrabold ${
               isMaximized ? " text-[25px]" : "text-[16px]"
             }`}
           >
-            Security Engineer
-          </h2>
+            Software Engineer
+          </h2> */}
           <h4
             className={` text-red-700 ${
               isMaximized ? " text-[20px]" : "text-[16px]"
