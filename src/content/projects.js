@@ -1,5 +1,13 @@
-import { html, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap, typescript, nextJs } from "../content/badges";
+import { html, python, shell, css, js, react, nodeJs, expressJs, mongoDb, tailwindCss, bootstrap, typescript, nextJs } from "../content/badges";
 export const projects = [
+    {
+        name: "SpyWare",
+        imagePath: "/assets/projectSnaps/SpyWare.png",
+        description: "SpyWare is an Opensource Collection of Pen-test and Hacking tools made to facilitate the Legal hacking Process",
+        githubLink: "https://github.com/joaomarcosjova/Cybersecurity-projects",
+        websiteLink: "https://github.com/joaomarcosjova/Cybersecurity-projects",
+        techStack: [python, shell, js]
+    },
     {
         name: "Parrot Learn",
         imagePath: "/assets/projectSnaps/parrot-learn.png",

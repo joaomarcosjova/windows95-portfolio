@@ -11,7 +11,8 @@ export const bootstrap = "https://img.shields.io/badge/-bootstrap-7952B3?logo=bo
 export const typescript = "https://img.shields.io/badge/-typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge";
 export const nextJs = "https://img.shields.io/badge/-next%20js-000000?logo=next.js&logoColor=white&style=for-the-badge"
 export const python = "https://img.shields.io/badge/-python%20-000000?logo=python&logoColor=green&style=for-the-badge"
+export const shell = "https://img.shields.io/badge/-shell%20-000000?logo=shell&logoColor=green&style=for-the-badge"
 
 export const badges = [
-    html, css, js, typescript, python, react, nodeJs, expressJs, mongoDb, mySql, tailwindCss,  bootstrap, nextJs
+    html, css, js, typescript, python, shell, react, nodeJs, expressJs, mongoDb, mySql, tailwindCss,  bootstrap, nextJs
 ]
