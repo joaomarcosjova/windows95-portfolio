@@ -63,11 +63,52 @@ const About = ({ isMaximized }) => {
         </p>
         {seeMore && (
           <>
-            <p className=" pt-6">
-            I have gained certifications and training from esteemed institutions such as *Harvard University* and *Rayat Bahra University*, along with industry leaders like *Microsoft*, *LinkedIn*, *Cisco*, *GitHub*, and *FreeCodeCamp*. These programs have equipped me with strong foundations in software engineering, cloud technologies, cybersecurity, and networking.
+          <br/>
+          <h4 className=" font-bold">Work Experience</h4>
+          <br/>
+          <ul className="list-disc pl-5 space-y-4">
+            <p>
+              <strong>Kadosh Softwares</strong> 
+              <ul className="list-disc pl-5">
+                <li>
+                  <strong>Project Manager</strong> (Promoted)
+                  <p className="text-sm pt-2">
+                    Led teams in the successful delivery of complex software projects. Managed project timelines, resources, and client communications, ensuring projects were completed on time and within budget.
+                  </p>
+                </li>
+                <li>
+                  <strong>Software Engineer</strong> (2023 - Present)
+                  <p className="text-sm pt-2">
+                    Designed, developed, and implemented various software projects with a focus on web applications and cybersecurity solutions. Collaborated with clients to deliver tailored software products.
+                  </p>
+                </li>
+              </ul>
             </p>
-            <p className=" pt-6">
-            These certifications and trainings not only represent my commitment to lifelong learning but also enable me to deliver high-quality, secure, and innovative solutions across various domains. They serve as a testament to my ability to leverage knowledge from global leaders in technology and apply it to build impactful projects that solve complex problems.
+            <p>
+              <strong>Delta Airlines</strong> 
+              <ul className="list-disc pl-5">
+                <li>
+                IT Support (2022 - 2023) 
+                  </li>
+                  </ul>
+              <p className="text-sm pt-2">
+                Provided technical support to airline staff, resolving hardware and software issues. Ensured the smooth operation of IT systems, troubleshooting network problems, and offering solutions to improve efficiency.
+              </p>
+            </p>
+            <p>
+              <strong>Bigbird Transportation</strong> 
+              <ul className="list-disc pl-5">
+                <li>
+                Software Engineer (2021 - 2022) 
+                  </li>
+                  </ul>
+              <p className="text-sm pt-2">
+                Developed and maintained internal software solutions to optimize logistics, transportation scheduling, and vehicle tracking. Collaborated with cross-functional teams to ensure smooth delivery of software solutions.
+              </p>
+            </p>
+          </ul>
+
+            <p>
               <span
                 className={`text-blue-500 ps-1 cursor-pointer ${
                   !seeMore ? "hidden" : ""

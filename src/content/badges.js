@@ -10,7 +10,8 @@ export const tailwindCss = "https://img.shields.io/badge/-Tailwind%20css-06B6D4?
 export const bootstrap = "https://img.shields.io/badge/-bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge";
 export const typescript = "https://img.shields.io/badge/-typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge";
 export const nextJs = "https://img.shields.io/badge/-next%20js-000000?logo=next.js&logoColor=white&style=for-the-badge"
+export const python = "https://img.shields.io/badge/-python%20-000000?logo=python&logoColor=green&style=for-the-badge"
 
 export const badges = [
-    html, css, js, react, nodeJs, expressJs, mongoDb, mySql, tailwindCss, bootstrap, typescript, nextJs
+    html, css, js, typescript, python, react, nodeJs, expressJs, mongoDb, mySql, tailwindCss,  bootstrap, nextJs
 ]
