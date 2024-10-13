@@ -1,5 +1,5 @@
 import { useState } from "react";
-import resumeUrl from "/assets/pdf/mycv-en.pdf";
+import resumeUrl from "/assets/pdf/Marcosjova-resume-en.pdf";
 
 const Cv = ({ isMaximized }) => {
   const [seeMore, setSeeMore] = useState(false);

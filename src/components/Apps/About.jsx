@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { badges } from "../../content/badges";
-import resumeUrl from "/assets/pdf/mycv-en.pdf";
+import resumeUrl from "/assets/pdf/Marcosjova-resume-en.pdf";
 
 const About = ({ isMaximized }) => {
   const [seeMore, setSeeMore] = useState(false);
